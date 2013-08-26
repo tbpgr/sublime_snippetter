@@ -6,7 +6,7 @@ ex. input
 
 ~~~ ruby
 # encoding: utf-8
-require_relative "./snippetter"
+require_relative "./snippeter"
 
 add :hoge, :param1, :param2
 ~~~
@@ -33,7 +33,7 @@ hoge ${1:param1}, ${2:param1}
 * Edit Snippet.rb
 * run command, "ruby se.rb"
 * output snippets in %PROJECT_ROOT%/snippeets
-* copy %PROJECT_ROOT%/snippeets to Sublime Text Package/User directory
+* copy %PROJECT_ROOT%/lib/snippeets to Sublime Text Package/User directory
 
 ## Directory Tree
 
@@ -51,7 +51,7 @@ hoge ${1:param1}, ${2:param1}
 
 ~~~ ruby
 # encoding: utf-8
-require_relative "./snippetter"
+require_relative "./snippeter"
 
 add :hoge, :param1, :param2
 add :hage, :param1
