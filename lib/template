@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<%= method_name %><%= args_names %>
+]]></content>
+  <tabTrigger><%= method_name %></tabTrigger>
+  <scope>source.ruby</scope>
+  <description><%= method_name %> method</description>
+</snippet>
