@@ -32,15 +32,15 @@ hoge ${1:param1}, ${2:param1}
 * git clone, this project
 * Edit Snippet.rb
 * run command, "ruby se.rb"
-* output snippets in %PROJECT_ROOT%/snippeets
-* copy %PROJECT_ROOT%/lib/snippeets to Sublime Text Package/User directory
+* output snippets in %PROJECT_ROOT%/snippets
+* copy %PROJECT_ROOT%/lib/snipets to Sublime Text Package/User directory
 
 ## Directory Tree
 
 ~~~
 │  se.rb # => DSL executor
 │  Snippet.rb # => DSL description
-│  snippetter.rb # =>DSL engine
+│  snippeter.rb # =>DSL engine
 │  template # => snippet template
 │
 └─snippets # => output folder
