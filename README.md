@@ -1,4 +1,4 @@
-# Sublime-Snippeter
+# Sublime-Snippetter
 
 This Project is snippet generator for Sublime Text2.
 
@@ -6,7 +6,7 @@ ex. input
 
 ~~~ ruby
 # encoding: utf-8
-require_relative "./snippeter"
+require_relative "./snippetter"
 
 add :hoge, :param1, :param2
 ~~~
@@ -40,7 +40,7 @@ hoge ${1:param1}, ${2:param1}
 ~~~
 │  se.rb # => DSL executor
 │  Snippet.rb # => DSL description
-│  snippeter.rb # =>DSL engine
+│  snippetter.rb # =>DSL engine
 │  template # => snippet template
 │
 └─snippets # => output folder
@@ -51,7 +51,7 @@ hoge ${1:param1}, ${2:param1}
 
 ~~~ ruby
 # encoding: utf-8
-require_relative "./snippeter"
+require_relative "./snippetter"
 
 add :hoge, :param1, :param2
 add :hage, :param1

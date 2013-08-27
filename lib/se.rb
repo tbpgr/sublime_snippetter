@@ -3,7 +3,7 @@ if $*.size == 1 && $*[0] == "init"
   File::open("./Snippet.rb", "w") do |f|
     f.puts <<-EOS
 # encoding: utf-8
-require_relative "./snippeter"
+require_relative "./snippetter"
 
 # add :method1, :args1, :args2, :args3
 # add :method2
@@ -19,6 +19,6 @@ unless FileTest.exist?("./Snippet.rb")
   exit
 end
 
-require_relative "./snippeter"
+require_relative "./snippetter"
 require_relative "./Snippet"
 generate

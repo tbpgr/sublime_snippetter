@@ -3,7 +3,7 @@ require "spec_helper"
 module SnippeterSpec
   SNIPPET =<<EOS
 # encoding: utf-8
-require_relative "./snippeter"
+require_relative "./snippetter"
 
 add :hoge, :param1, :param2
 add :hige
@@ -21,7 +21,7 @@ hoge ${1:param1}, ${2:param2}
 </snippet>
 EOS
     it 'generate' do
-      require_relative "../lib/snippeter"
+      require_relative "../lib/snippetter"
       add :hoge, :param1, :param2
 
       generate
